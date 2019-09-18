@@ -16,19 +16,31 @@
         <div id="titleCard" class="jumbotron col-6">Crystal collector</div>
             </div>
     <div class="row offset-4">
-        <div id="rules" class="jumbotron col-6">rules and info</div>
+        <div id="rules" class="jumbotron col-6">
+            <p class="ruless">Rules are simple:</p>
+            <p class="ruless">you have a number to guess,</p>
+            <p class="ruless">each crystal has a set random value,</p>
+            <p class="ruless">clicking on the crystal will add that value to the score</p>
+            <p class="ruless">if score === the number to guess you win!</p>
+            <p class="ruless">if you go over the number you lose!</p>
+            <p class="ruless">go ahead try clicking.</p>
+        </div>
             </div>
     <div class="row">
-        <div id="numberBox" class="jumbotron col-2">number to guess</div>
-        <div id="crystals" class="jumbotron col-8"></div>
-        <div id="winsLosses" class="jumbotron col-2">wins & losses</div>
+        <div id="numberBox" class="jumbotron col-2">number to guess: </div>
+            <div id="crystals" class="jumbotron col-8 container">
+            </div>
+        <div id="winsLosses" class="jumbotron col-2">
+            <p id="wins">wins: </p>
+            <p id="losses">losses: </p>
+        </div>
             </div>
     <div class="row offset-5">
-        <div id="scoreLine" class="jumbotron col-3">score line</div>
+        <div id="scoreLine" class="jumbotron col-3">score: </div>
             </div>
 </div>
-    
-<script src="assets/game.js"></script>
+
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="assets/game.js"></script>
 </body>
 </html>

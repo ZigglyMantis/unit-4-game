@@ -1,32 +1,67 @@
+body {
+    background-color: rgb(30, 0, 42)
+}
+
 #titleCard {
     font-size: 25px;
     padding: 10px;
     text-align: center;
+    background-color: rgb(77, 0, 77);
+    color: rgb(255, 196, 0)
 }
 
 #rules {
     height: 250px;
     padding: 15px;
+    background-color: rgb(77, 0, 77);
+    color: rgb(150, 0, 150)
 }
 
 #numberBox {
     height: 75px;
     text-align: center;
     float: left;
+    background-color: rgb(77, 0, 77);
+    color: rgb(224, 126, 224);
+    padding: 10px;
 }
 
 #winsLosses {
     height: 75px;
     text-align: center;
     float: right;
+    background-color: rgb(77, 0, 77);
+    color: rgb(150, 0, 150);
+    padding: 10px;   
+}
+
+#wins {
+    color: lime;
+}
+
+#losses {
+    color: red;
 }
 
 #crystals {
+    height: 125px;
     padding: 0px;
     float: none;
+    background-color: rgb(77, 0, 77);
+    color: rgb(150, 0, 150)
 }
 
 #scoreLine {
     padding: 10px;
     text-align: center;
+    background-color: rgb(77, 0, 77);
+    color: rgb(0, 183, 255)
+}
+img {
+    max-height: 120px;
+    margin: 0px 26px;
+}
+.ruless {
+    font-size: 10px;
+    color: pink;
 }
