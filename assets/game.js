@@ -12,7 +12,15 @@ var crystalLow = 1;
 var crystalHigh = 12;
 //score counter that crystals add to//
 var counter = 0;
-var crystalAvailable = ["assets/images/crystal1.png", "assets/images/crystal2.png", "assets/images/crystal3.png", "assets/images/crystal4.png", "assets/images/crystal5.png", "assets/images/crystal6.png", "assets/images/crystal7.png",]
+var crystalAvailable = 
+[`assets\\images\\Crystal1.png`,
+ `assets\\images\\Crystal2.png`,
+  `assets\\images\\Crystal3.png`,
+   `assets\\images\\Crystal4.png`,
+    `assets\\images\\Crystal5.png`,
+     `assets\\images\\Crystal6.png`,
+      `assets\\images\\Crystal7.png`,]
+console.log(crystalAvailable);
 //displays correct number to guess//
 function displayCorrectNumber() {
     $("#numberBox").append(correctNumber)
